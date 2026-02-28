@@ -13,7 +13,7 @@ const App = () => {
     .image("batman_3840x2160_xtrafondos.com_tdllmy")
     .format("auto")
     .quality("auto")
-    .resize(fill().width(500).height(500));
+    .resize(fill().width(600).height(600));
 
   return <AdvancedVideo cldVid={img} />;
 };
